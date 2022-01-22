@@ -1,15 +1,19 @@
 {
-  "name": "factura-vanillajs",
+  "name": "facturavanillajs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "factura.js",
   "scripts": {
-    "start": "node factura-vanillajs.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node factura.js"
   },
-  "author": "maria carrero",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariiacch/FacturaPdf.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jspdf-autotable": "^3.5.23"
-  }
+  "bugs": {
+    "url": "https://github.com/mariiacch/FacturaPdf/issues"
+  },
+  "homepage": "https://github.com/mariiacch/FacturaPdf#readme"
 }
