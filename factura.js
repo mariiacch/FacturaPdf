@@ -3,11 +3,15 @@ var swLocation = '/FacturaPdf/sw.js'
 
 // registro el service worker
 
-if(navigator.serviceWorker){
+/*if(navigator.serviceWorker){
     if(url.includes('localhost')){
         swLocation='sw.js'
     }
     navigator.serviceWorker.register(swLocation)
+}*/
+
+if ( navigator.serviceWorker ) {
+    navigator.serviceWorker.register('/sw.js');
 }
 
 //cabecera:
