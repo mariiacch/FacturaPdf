@@ -1,4 +1,14 @@
+var url= window.location.href;
+var swLocation = '/FacturaPdf/sw.js'
 
+// registro el service worker
+
+if(navigator.serviceWorker){
+    if(url.includes('localhost')){
+        swLocation='/sw.js'
+    }
+    navigator.serviceWorker.register(swLocation)
+}
 
 //cabecera:
 const inputNombre= document.getElementById("inputNombre")
